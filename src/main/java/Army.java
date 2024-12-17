@@ -1,3 +1,10 @@
+import Operation.Attack;
+import Operation.Defend;
+import Soldier.Soldier;
+import Soldier.Knight;
+import Soldier.Swordsman;
+import Soldier.Archer;
+
 import java.util.ArrayList;
 import java.util.List;
 

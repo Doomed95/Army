@@ -1,4 +1,10 @@
-public class Archer extends Soldier implements Defend,SpecialAbility{
+package Soldier;
+
+import Constant.Type;
+import Operation.Defend;
+import Operation.SpecialAbility;
+
+public class Archer extends Soldier implements Defend, SpecialAbility {
 
     public Archer(String name, int damage) {
         super(name, Type.DEFENSIVE, damage);

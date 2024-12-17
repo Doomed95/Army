@@ -1,3 +1,10 @@
+package Soldier;
+
+import Constant.Type;
+import Operation.Attack;
+import Operation.Defend;
+import Operation.SpecialAbility;
+
 public class Swordsman extends Soldier implements Attack, Defend, SpecialAbility {
 
     public Swordsman(String name, int damage) {

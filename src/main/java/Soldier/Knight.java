@@ -1,3 +1,9 @@
+package Soldier;
+
+import Constant.Type;
+import Operation.Attack;
+import Operation.SpecialAbility;
+
 public class Knight extends Soldier implements Attack, SpecialAbility {
 
 

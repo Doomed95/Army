@@ -1,3 +1,7 @@
+package Soldier;
+
+import Constant.Type;
+
 public abstract class Soldier {
     private final String name;
     private final Type type;
@@ -22,6 +26,6 @@ public abstract class Soldier {
     }
 
     public void report(Type type) {
-        System.out.println("Soldier " + this.name + " here. Type - " + type);
+        System.out.println("Soldier " + this.name + " here. Constant.Type - " + type);
     }
 }
